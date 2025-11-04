@@ -1,8 +1,8 @@
 # 🎲 export.php – Quick Usage Guide
 
 1. **Environment setup**  
-   - (Optional) place a [.env](cci:7://file:///home/bruno/Documents/projects/pdm/dgae/.env:0:0-0:0) file alongside [export.php](cci:7://file:///home/bruno/Documents/projects/pdm/dgae/export.php:0:0-0:0) with keys like `DB_CONNECTION`, `DB_HOST`, `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`.  
-   - If no [.env](cci:7://file:///home/bruno/Documents/projects/pdm/dgae/.env:0:0-0:0) exists, those variables must already be available in `$_ENV`/`getenv`.
+   - (Optional) place a `.env` file alongside [export.php](export.php) with keys like `DB_CONNECTION`, `DB_HOST`, `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD`.  
+   - If no .env exists, those variables must already be available in `$_ENV`/`getenv`.
 
 2. **Dependencies**  
    - PHP 7.4+ (works fine on PHP 8).  
