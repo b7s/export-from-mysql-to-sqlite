@@ -36,6 +36,7 @@ if ($database === '') {
 // Set output directory
 $outputDir = dirname($outputPath);
 
+// Create sqlite file if not exists 
 if (! is_dir($outputDir) && ! mkdir($outputDir, 0755, true) && ! is_dir($outputDir)) {
     fwrite(STDERR, sprintf("Failed to create destination directory: %s\n", $outputDir));
     exit(1);
